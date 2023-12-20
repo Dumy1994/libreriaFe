@@ -1,1 +1,133 @@
-/* You can add global styles to this file, and also import other style files */
+
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 70px;
+  background-color: blue;
+  text-align: center;
+  color: white;
+}
+html,
+body {
+
+}
+body, h1,h2,h3,h4,h5,h6, p {
+  margin: 0px;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* font text  */
+
+/* for small text in grey  */
+.Ysabeau
+{
+  font-family: 'Ysabeau', sans-serif;
+  font-weight: 300;
+}
+
+/* colors  text*/
+.grey{
+  color: #9e9e9e;
+}
+
+/* register-login-container */
+.input-login
+{
+  width: 100%;
+  margin-bottom: 10px;
+  height: 50px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  font-size: 18px;
+  background-color: #fff;
+}
+.input-login:focus
+{
+  outline: none;
+  border: 1px solid #2cacd6;
+  box-shadow: 0px 0px 10px #2cacd6;
+}
+.input-login:hover
+{
+  border: 1px solid #2cacd6;
+}
+.input-create {
+  width: 90%;
+  margin-bottom: 10px;
+  height: 50px;
+  border-radius: 5px 0px 0px 5px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  font-size: 18px;
+  background-color: #fff;
+  color: #2cacd6;
+}
+
+.input-create:focus
+{
+  outline: none;
+  border: 1px solid #2cacd6;
+  box-shadow: 0px 0px 10px #2cacd6;
+}
+.input-create:hover
+{
+  border: 1px solid #2cacd6;
+
+}
+input[type="date"]::-webkit-calendar-picker-indicator {
+  display: none;
+}
+ngb-datepicker{
+  /* margin-top: 50px !important; */
+  z-index: 9999
+}
+.icon-input{
+  height: 50px;
+  width: 50px;
+  border-radius: 0px 5px 5px 0px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  font-size: 18px;
+  background-color: #fff;
+  color: #2cacd6;
+}
+.link-login
+{
+  color: #2cacd6;
+  background-color: transparent;
+  text-decoration: none;
+}
+.link-login:hover {
+  color: #1e7a98;
+  text-decoration: underline;
+}
+.button-login{
+  width: 100%;
+  height: 50px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding: 10px;
+  font-size: 18px;
+  background-color: #2cacd6;
+  color: #fff;
+}
+.button-login:hover
+{
+  background-color: #1e7a98;
+  color: #fff;
+}
+::placeholder {
+  font-family: 'Ysabeau', sans-serif;
+  font-weight: 400;
+  color: #9e9e9e;
+}
+input, select, textarea{
+  color: #1e7a98;
+  font-weight: 400;
+}
+
+html, body { height: 100%; }
+body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
